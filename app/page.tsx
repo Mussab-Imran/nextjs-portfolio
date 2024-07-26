@@ -1,3 +1,4 @@
+import Hero from "@/components/Hero";
 import Image from "next/image";
 
 export default function Home() {
@@ -6,7 +7,7 @@ export default function Home() {
       {/* Justify-centre: center it vertically, items-centre: center it horizontally
           flex-col: switch orientation, overflow-hidden: to hide the scrollbars */}
       <div className="max-w-7xl w-full">
-        <h1>Hello Portfolio!</h1>
+        <Hero />
       </div>
     </main>
   );
