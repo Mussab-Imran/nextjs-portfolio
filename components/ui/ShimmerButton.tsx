@@ -2,8 +2,13 @@ import React from 'react'
 
 function ShimmerButton({ title, icon, position, handleClick, otherClasses } : {title: string; icon: React.ReactNode, position: string, handleClick?: () => void; otherClasses?: string;}) {
     return (
-        <button className="inline-flex h-12 w-full animate-shimmer items-center justify-center rounded-full border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-purple transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 md:w-60 md:mt-10">
-            {title}
+        <button className="relative inline-flex h-10 overflow-hidden rounded-full p-[1px]">
+            <span className="absolute inset-[-1000%] animate-[spin_5s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
+            <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-3 py-1 text-sm font-small text-white backdrop-blur-3xl gap-2 ${otherClasses}">
+                {position === 'left' && icon}
+                {title}
+                {position === 'right' && icon}
+            </span>
         </button>
     )
 }
