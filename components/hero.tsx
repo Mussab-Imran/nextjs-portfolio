@@ -1,6 +1,8 @@
 import React from 'react'
 import { TypewriterEffect } from './ui/TypewriterEffect'
 import { Inconsolata } from "next/font/google";
+import BrutalButton from './ui/BrutalButton';
+import { CrossCard } from './ui/CrossCard';
 
 const incon = Inconsolata({ subsets: ['latin'] })
 
@@ -17,6 +19,8 @@ const Hero = () => {
                 <TypewriterEffect words={[{text: "Mussab", className:"text-white text-7xl"}, {text: "Imran", className:"text-white text-7xl"}]} />
             </h1>
         </div>
+        {/* <BrutalButton title={'Call to action'} link='https://www.instagram.com/mussab_imran/'/> */}
+        <CrossCard position={'top-50 left-50'} />
     </div>
   )
 }
