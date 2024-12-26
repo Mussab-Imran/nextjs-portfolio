@@ -4,7 +4,7 @@ import React from "react";
 import { AnimatePresence, motion } from "framer-motion";
 // import { CanvasRevealEffect } from "@/components/ui/canvas-reveal-effect";
 
-export function CrossCard({position} : {position: string}) {
+export function CrossCard({ position, imageUrl }: { position: string, imageUrl?: string }) {
   return (
     <>
       <div className="py-20 flex flex-col lg:flex-row w-full gap-4 mx-auto px-8">
@@ -13,7 +13,11 @@ export function CrossCard({position} : {position: string}) {
           <Icon className="absolute h-6 w-6 -bottom-3 -left-3 text-white" />
           <Icon className="absolute h-6 w-6 -top-3 -right-3 text-white" />
           <Icon className="absolute h-6 w-6 -bottom-3 -right-3 text-white" />
-          <p>test here</p>
+          {imageUrl ? (
+            <img src={imageUrl} alt="Card Image" className="w-full h-full object-cover" />
+          ) : (
+            <p className="text-white">test here</p>
+          )}
         </div>
       </div>
     </>

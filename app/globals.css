@@ -2,3 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Set a global background color */
+body {
+    background-color: black;
+    background-image: radial-gradient(circle, rgba(255, 255, 255, 0.2) 1px, transparent 1px);
+    background-size: 20px 20px;
+    height: 100vh;
+    margin: 0;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    background-attachment: fixed; /* Parallax effect */
+  }
+  
+  
