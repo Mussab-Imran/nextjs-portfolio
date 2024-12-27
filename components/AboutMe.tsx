@@ -35,8 +35,17 @@ const AboutMe = () => {
                             Upstatement for a variety of clients.
                         </p>
                     </div>
-                    <div className='flex justify-center md:justify-start'>
-                        <BrutalButton title={'Instagram'} link='https://www.instagram.com/mussab_imran/'/>
+                    
+                    <div className='flex flex-row space-x-3 justify-center md:justify-start'>
+                        <div>
+                            <BrutalButton title={'Instagram'} link='https://www.instagram.com/mussab_imran/'/>
+                        </div>
+                        <div>
+                            <BrutalButton title={'LinkedIn'} link='https://www.linkedin.com/in/mussab-imran/'/>
+                        </div>
+                        <div>
+                            <BrutalButton title={'GitHub'} link='https://github.com/Mussab-Imran'/>
+                        </div>
                     </div>
                 </div>
 
