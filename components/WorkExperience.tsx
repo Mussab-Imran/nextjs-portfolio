@@ -16,7 +16,7 @@ const WorkExperience = () => {
           title: "Acquired First Customers",
           content: <p>Acquiring the first customers was an exciting step, validating all the effort I had put in so far.</p>,
         },
-        // Add more entries as needed
+        
     ];
 
     return(

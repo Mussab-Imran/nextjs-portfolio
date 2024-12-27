@@ -47,10 +47,12 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
             Work Experience
           </h2>
         </div>
-        <p className="text-white text-sm md:text-base max-w-sm">
-          I&apos;ve been working on Aceternity for the past 2 years. Here&apos;s
-          a timeline of my journey.
-        </p>
+        <div className={incon.className}>
+          <p className="text-white text-sm md:text-base max-w-sm">
+            I&apos;ve been working on Aceternity for the past 2 years. Here&apos;s
+            a timeline of my journey.
+          </p>
+        </div>
       </div>
 
       <div ref={ref} className="relative max-w-7xl mx-auto pb-20">
@@ -63,15 +65,21 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
               <div className="h-10 absolute left-3 md:left-3 w-10 rounded-none bg-black flex items-center justify-center border border-lime-400">
               </div>
               <h3 className="hidden md:block text-xl md:pl-20 md:text-5xl font-bold uppercase text-white">
-                {item.title}
+                <div className={incon.className}>
+                  {item.title}
+                </div>
               </h3>
             </div>
 
             <div className="relative pl-20 pr-4 md:pl-4 w-full">
               <h3 className="md:hidden block text-2xl mb-4 text-left font-bold text-white">
-                {item.title}
+                <div className={incon.className}>
+                  {item.title}
+                </div>
               </h3>
-              {item.content}{" "}
+              <div className={incon.className}>
+                {item.content}{" "}
+              </div>
             </div>
           </div>
         ))}

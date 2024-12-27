@@ -19,7 +19,7 @@ const AboutMe = () => {
                     </div>
 
                     {/* Text Section */}
-                    <div>
+                    <div className={incon.className}>
                         <p>
                             Hello! My name is Brittany, and I enjoy creating things that live on
                             the internet. My interest in web development started back in 2012
