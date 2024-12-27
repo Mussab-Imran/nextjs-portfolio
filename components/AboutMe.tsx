@@ -1,34 +1,55 @@
-import React from 'react'
+import React from 'react';
 import { CrossCard } from './ui/CrossCard';
-import { Inconsolata } from "next/font/google";
+import { Inconsolata } from 'next/font/google';
+import BrutalButton from './ui/BrutalButton';
 
-const incon = Inconsolata({ subsets: ['latin'] })
+const incon = Inconsolata({ subsets: ['latin'] });
 
 const AboutMe = () => {
     return (
-        <div className="grid grid-rows-2 grid-cols-2">
+        <div className="container mx-auto max-w-screen-lg px-4 py-16">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+                {/* Left Column */}
+                <div className="flex flex-col space-y-8">
+                    {/* Title Section */}
+                    <div className={incon.className}>
+                        <h1 className="text-lime-400 text-7xl text-center md:text-left">
+                            About Me
+                        </h1>
+                    </div>
 
-            <div className="col-span-2">
-                <div className={incon.className}>
-                    <h1 className="text-lime-400 text-7xl">
-                        About Me
-                    </h1>
+                    {/* Text Section */}
+                    <div>
+                        <p>
+                            Hello! My name is Brittany, and I enjoy creating things that live on
+                            the internet. My interest in web development started back in 2012
+                            when I decided to try editing custom Tumblr themes—turns out hacking
+                            together a custom reblog button taught me a lot about HTML & CSS!
+                        </p>
+                        <br></br>
+                        <p>
+                            Fast-forward to today, I’ve had the privilege of working at an
+                            advertising agency, a start-up, a huge corporation, and a
+                            student-led design studio. My main focus these days is building
+                            accessible, inclusive products and digital experiences at
+                            Upstatement for a variety of clients.
+                        </p>
+                    </div>
+                    <div className='flex justify-center md:justify-start'>
+                        <BrutalButton title={'Instagram'} link='https://www.instagram.com/mussab_imran/'/>
+                    </div>
+                </div>
+
+                {/* Right Column (Image Section) */}
+                <div className=''>
+                    <CrossCard
+                        position={''}
+                        imageUrl="https://gracious-kare-44cbc0.netlify.app/img/11.jpg"
+                    />
                 </div>
             </div>
-
-            <div>
-                <p>
-                    public/images/: This folder contains all the images. You can organize them however you'd like inside the images directory, e.g., logos, profile pictures, or product images.
-                </p>
-            </div>
-
-            <div>
-                <CrossCard position={'top-15 left-50'} imageUrl="https://gracious-kare-44cbc0.netlify.app/img/11.jpg" />
-            </div>
-
         </div>
     );
 };
 
-
-export default AboutMe
+export default AboutMe;

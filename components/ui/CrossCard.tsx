@@ -7,7 +7,7 @@ import { AnimatePresence, motion } from "framer-motion";
 export function CrossCard({ position, imageUrl }: { position: string, imageUrl?: string }) {
   return (
     <>
-      <div className="py-20 flex flex-col lg:flex-row w-full gap-4 mx-auto px-8">
+      <div className=" flex flex-col lg:flex-row w-full gap-4 mx-auto px-8">
         <div className={`border group/canvas-card flex items-center border-slate-400 max-w-sm w-full mx-auto p-4 h-[30rem] absolute ${position}`}>
           <Icon className="absolute h-6 w-6 -top-3 -left-3 text-white" />
           <Icon className="absolute h-6 w-6 -bottom-3 -left-3 text-white" />

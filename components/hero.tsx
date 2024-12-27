@@ -9,7 +9,7 @@ const Hero = () => {
   return (    
     <div className='flex flex-col'>
         <div className={incon.className}>
-            <p className='text-lime-400 relative left-1 text-xl'>
+            <p className='text-lime-400 relative ml-[35%] md:ml-1 text-xl'>
                 Hi, my name is
             </p>
         </div>
