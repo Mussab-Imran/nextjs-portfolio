@@ -47,7 +47,9 @@ const AboutMe = () => {
                             <BrutalButton title={'GitHub'} link='https://github.com/Mussab-Imran'/>
                         </div>
                         <div>
-                            <BrutalButton title={'⇩ Resume'} link='https://github.com/Mussab-Imran'/>
+                            <div>
+                                <BrutalButton title={'Resume'} link='https://github.com/Mussab-Imran'/>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -53,13 +53,13 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="h-full md:mt-[1vh] mt-[60vh] md:mb-[70vh]">
+      <section className="h-full md:mt-[1vh] mt-[60vh] md:mb-[30vh]">
         <div>
           <Projects />
         </div>
       </section>
 
-      <section className="h-full md:mt-[1vh] mt-[60vh] md:mb-0">
+      <section className="h-auto md:mt-[1vh] mt-[60vh]">
         <div>
           <Footer />
         </div>
