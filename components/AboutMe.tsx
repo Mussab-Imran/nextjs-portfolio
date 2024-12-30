@@ -27,8 +27,8 @@ const AboutMe = () => {
                         </p>
                         <br></br>
                         <p>
-                            Apart from programming I am an avid photographer and videographer &#40;check out my recent work on 
-                            instagram&#41;. When I am not out taking pictures you can find me laying back and enjoying some video games
+                            Apart from programming I am an avid photographer and videographer (check out my recent work on 
+                            instagram). When I am not out taking pictures you can find me laying back and enjoying some video games
                         </p>
                     </div>
                     
