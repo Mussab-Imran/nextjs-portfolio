@@ -49,7 +49,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
         </div>
         <div className={incon.className}>
           <p className="text-white text-sm md:text-base max-w-sm">
-            I&apos;ve been working on Aceternity for the past 2 years. Here&apos;s
+            I&apos;ve been working as a developer for the past 4 years. Here&apos;s
             a timeline of my journey.
           </p>
         </div>

@@ -1,38 +1,109 @@
 import React from 'react';
 import { Timeline } from './ui/Timeline';
+import { Inconsolata } from 'next/font/google';
+
+const incon = Inconsolata({ subsets: ['latin'] });
 
 const WorkExperience = () => {
     
     const TimelineData = [
         {
-          title: "Started Aceternity",
-          content: <p>Hello! My name is Brittany and I enjoy creating things that live on the internet. My interest in web development started back in 2012 when I decided to try editing custom Tumblr themes — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!
+          title: "Parliament of Canada",
+          content: 
+          
+          <div>
+            
+            <h1 className='text-3xl text-lime-400'>
+              Special Assistant, Strategic Research
+            </h1>
 
-          Fast-forward to today, and I’ve had the privilege of working at an advertising agency, a start-up, a huge corporation, and a student-led design studio. My main focus these days is building accessible, inclusive products and digital experiences at Upstatement for a variety of clients.
+            <h2 className='text-xl'>
+              May 2024 - Present
+            </h2>
+
+            <p>
+              As an Open-Source Research Specialist, I conduct comprehensive intelligence research on persons of interest, 
+              analyzing publicly available data to assess potential risks and compliance issues. I develop detailed reports 
+              that align with organizational objectives, highlighting key information and providing actionable insights for 
+              senior management and stakeholders. To enhance research efficiency, I design and maintain custom applications 
+              and tools that streamline operations, automate repetitive tasks, and improve data accuracy. Additionally, 
+              I prepare and distribute daily newsletters and press summaries, ensuring that senior leadership and colleagues 
+              are informed with the latest developments and pertinent information to support critical decision-making processes.
+            </p>
           
-          I also recently launched a course that covers everything you need to build a web app with the Spotify API using Node & React.
-          
-          Here are a few technologies I’ve been working with recently:</p>,
+          </div>,
         },
         {
-          title: "Released First Version",
-          content: <p>Hello! My name is Brittany and I enjoy creating things that live on the internet. My interest in web development started back in 2012 when I decided to try editing custom Tumblr themes — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!
+          title: "University of Guelph",
+          content: 
+          
+          <div>
+            
+            <h1 className='text-3xl text-lime-400'>
+              Website Redesign Co-ordinator (CO-OP)
+            </h1>
 
-          Fast-forward to today, and I’ve had the privilege of working at an advertising agency, a start-up, a huge corporation, and a student-led design studio. My main focus these days is building accessible, inclusive products and digital experiences at Upstatement for a variety of clients.
+            <h2 className='text-xl'>
+              June 2023 - September 2023
+            </h2>
+
+            <p>
+              I led the revamp of websites across the Engineering and Biological Sciences departments 
+              to achieve AODA’s AA conformance rating, improving accessibility compliance from 60% to 95%. 
+              This work involved updating sites built with WordPress, PHP, and HTML. To streamline repetitive tasks, 
+              I developed a Python script for automated adjustments. Additionally, I created PowerApps integrated with 
+              SharePoint to optimize departmental workflows and support daily operations effectively.
+            </p>
           
-          I also recently launched a course that covers everything you need to build a web app with the Spotify API using Node & React.
-          
-          Here are a few technologies I’ve been working with recently:</p>,
+          </div>,
         },
         {
-          title: "Acquired First Customers",
-          content: <p>Hello! My name is Brittany and I enjoy creating things that live on the internet. My interest in web development started back in 2012 when I decided to try editing custom Tumblr themes — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!
+          title: "MERAK",
+          content: 
+          
+          <div>
+            
+            <h1 className='text-3xl text-lime-400'>
+              UX Desginer (CO-OP)
+            </h1>
 
-          Fast-forward to today, and I’ve had the privilege of working at an advertising agency, a start-up, a huge corporation, and a student-led design studio. My main focus these days is building accessible, inclusive products and digital experiences at Upstatement for a variety of clients.
+            <h2 className='text-xl'>
+              May 2022 - August 2022
+            </h2>
+
+            <p>
+              I led the revamp of websites across the Engineering and Biological Sciences departments 
+              to achieve AODA’s AA conformance rating, improving accessibility compliance from 60% to 95%. 
+              This work involved updating sites built with WordPress, PHP, and HTML. To streamline repetitive tasks, 
+              I developed a Python script for automated adjustments. Additionally, I created PowerApps integrated with 
+              SharePoint to optimize departmental workflows and support daily operations effectively.
+            </p>
           
-          I also recently launched a course that covers everything you need to build a web app with the Spotify API using Node & React.
+          </div>,
+        },
+        {
+          title: "Unilock",
+          content: 
           
-          Here are a few technologies I’ve been working with recently:</p>,
+          <div>
+            
+            <h1 className='text-3xl text-lime-400'>
+              System Administrator (CO-OP)
+            </h1>
+
+            <h2 className='text-xl'>
+              September 2021 - December 2021
+            </h2>
+
+            <p>
+              I led the revamp of websites across the Engineering and Biological Sciences departments 
+              to achieve AODA’s AA conformance rating, improving accessibility compliance from 60% to 95%. 
+              This work involved updating sites built with WordPress, PHP, and HTML. To streamline repetitive tasks, 
+              I developed a Python script for automated adjustments. Additionally, I created PowerApps integrated with 
+              SharePoint to optimize departmental workflows and support daily operations effectively.
+            </p>
+          
+          </div>,
         },
         
     ];

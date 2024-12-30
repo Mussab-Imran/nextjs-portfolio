@@ -21,18 +21,14 @@ const AboutMe = () => {
                     {/* Text Section */}
                     <div className={incon.className}>
                         <p>
-                            Hello! My name is Brittany, and I enjoy creating things that live on
-                            the internet. My interest in web development started back in 2012
-                            when I decided to try editing custom Tumblr themes—turns out hacking
-                            together a custom reblog button taught me a lot about HTML & CSS!
+                            Hi I'm Mussab, a full-stack developer based out of Guelph, ON. I am a University of Guelph 
+                            grad with a major in Computer Science with a minor in Geomatics. 
+                            I love creating products that solve real world problems and help improve lives.
                         </p>
                         <br></br>
                         <p>
-                            Fast-forward to today, I’ve had the privilege of working at an
-                            advertising agency, a start-up, a huge corporation, and a
-                            student-led design studio. My main focus these days is building
-                            accessible, inclusive products and digital experiences at
-                            Upstatement for a variety of clients.
+                            Apart from programming I am an avid photographer and videographer &#40;check out my recent work on 
+                            instagram&#41;. When I am not out taking pictures you can find me laying back and enjoying some video games
                         </p>
                     </div>
                     
@@ -48,7 +44,7 @@ const AboutMe = () => {
                         </div>
                         <div>
                             <div>
-                                <BrutalButton title={'Resume'} link='https://github.com/Mussab-Imran'/>
+                                <BrutalButton title={'Resume'} link='/resume.pdf'/>
                             </div>
                         </div>
                     </div>

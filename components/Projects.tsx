@@ -9,40 +9,28 @@ const Projects = () => {
 
     const projects = [
         {
-            title: "Stripe",
+            title: "exif_extractor",
             description:
-              "A technology company that builds economic infrastructure for the internet.",
-            link: "https://stripe.com",
+              "A chrome extension that allows users to extract exif data from images using a URL or stored locally on a PC",
+            link: "https://github.com/Mussab-Imran/exif_extension",
           },
           {
-            title: "Stripe",
+            title: "email_leak_tracker",
             description:
-              "A technology company that builds economic infrastructure for the internet.",
-            link: "https://stripe.com",
+              "A python script that checks to see if your email address has been shared between mailing lists without your consent or knowledge",
+            link: "https://github.com/Mussab-Imran/email_leak_tracker",
           },
           {
-            title: "Stripe",
+            title: "nextjs-portfolio",
             description:
-              "A technology company that builds economic infrastructure for the internet.",
-            link: "https://stripe.com",
+              "The website you are on right now! Built in Next.js with Tailwind and Aceternity UI",
+            link: "https://github.com/Mussab-Imran/nextjs-portfolio",
           },
           {
-            title: "Stripe",
+            title: "Rentr",
             description:
-              "A technology company that builds economic infrastructure for the internet.",
-            link: "https://stripe.com",
-          },
-          {
-            title: "Stripe",
-            description:
-              "A technology company that builds economic infrastructure for the internet.",
-            link: "https://stripe.com",
-          },
-          {
-            title: "Stripe",
-            description:
-              "A technology company that builds economic infrastructure for the internet.",
-            link: "https://stripe.com",
+              "An app that allows users to lend or rent items to make passive income on the side and help promote circular economy",
+            link: "https://github.com/rehan-code/GH-team-23",
           },
     ];
 
@@ -57,8 +45,8 @@ const Projects = () => {
                 </div>
                 <div className={incon.className}>
                 <p className="text-white text-sm md:text-base max-w-sm">
-                    I&apos;ve been working on Aceternity for the past 2 years. Here&apos;s
-                    a timeline of my journey.
+                    Some of the projects I have worked on over the years. You can find
+                    more on my Github profile!
                 </p>
                 </div>
             </div>

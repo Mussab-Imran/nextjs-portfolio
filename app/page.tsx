@@ -47,7 +47,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="h-full md:mt-0 mb-[150vh] md:mb-[100vh]"> 
+      <section className="h-full md:mt-0 mb-[150vh] md:mb-[150vh]"> 
         <div>
           <WorkExperience />
         </div>
