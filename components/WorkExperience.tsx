@@ -14,7 +14,7 @@ const WorkExperience = () => {
           <div>
             
             <h1 className='text-3xl text-lime-400'>
-              Special Assistant, Strategic Research
+              Special Assistant, Strategic Research - Ottawa
             </h1>
 
             <h2 className='text-xl'>
@@ -40,7 +40,7 @@ const WorkExperience = () => {
           <div>
             
             <h1 className='text-3xl text-lime-400'>
-              Website Redesign Co-ordinator (CO-OP)
+              Website Redesign Co-ordinator - Guelph
             </h1>
 
             <h2 className='text-xl'>
@@ -64,7 +64,7 @@ const WorkExperience = () => {
           <div>
             
             <h1 className='text-3xl text-lime-400'>
-              UX Desginer (CO-OP)
+              UX Desginer - Guelph
             </h1>
 
             <h2 className='text-xl'>
@@ -72,11 +72,12 @@ const WorkExperience = () => {
             </h2>
 
             <p>
-              I led the revamp of websites across the Engineering and Biological Sciences departments 
-              to achieve AODA’s AA conformance rating, improving accessibility compliance from 60% to 95%. 
-              This work involved updating sites built with WordPress, PHP, and HTML. To streamline repetitive tasks, 
-              I developed a Python script for automated adjustments. Additionally, I created PowerApps integrated with 
-              SharePoint to optimize departmental workflows and support daily operations effectively.
+              Collaborated with my team to redesign and implement a client's case management system. 
+              Conducted research to identify pain points in the existing system and worked closely with 
+              the client to develop iterative prototypes using JustInMind. Once the prototype was finalized, 
+              I developed the solution using Angular, TypeScript, PostgreSQL, and Docker. Worked in an Agile 
+              environment to ensure continuous feedback, user testing, and iteration, delivering a system aligned 
+              with client goals and optimized for functionality.
             </p>
           
           </div>,
@@ -88,7 +89,7 @@ const WorkExperience = () => {
           <div>
             
             <h1 className='text-3xl text-lime-400'>
-              System Administrator (CO-OP)
+              System Administrator - Georgetown
             </h1>
 
             <h2 className='text-xl'>
@@ -96,11 +97,12 @@ const WorkExperience = () => {
             </h2>
 
             <p>
-              I led the revamp of websites across the Engineering and Biological Sciences departments 
-              to achieve AODA’s AA conformance rating, improving accessibility compliance from 60% to 95%. 
-              This work involved updating sites built with WordPress, PHP, and HTML. To streamline repetitive tasks, 
-              I developed a Python script for automated adjustments. Additionally, I created PowerApps integrated with 
-              SharePoint to optimize departmental workflows and support daily operations effectively.
+              I was responsible for setting up new computers, installing domain-specific software, 
+              and configuring network protocols to meet organizational needs. I also resolved IT help 
+              desk tickets, addressing software and hardware issues, and maintained office equipment 
+              such as printers and scanners. Additionally, I managed server backups, ensuring data integrity 
+              and security through regular checks and an organized schedule, contributing to efficient IT operations 
+              and user support.
             </p>
           
           </div>,

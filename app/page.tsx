@@ -41,19 +41,19 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="h-full mb-[60vh] md:mb-0"> 
+      <section className="h-full mb-[90vh] md:mb-0"> 
         <div>
           <Skills />
         </div>
       </section>
 
-      <section className="h-full md:mt-0 mb-[150vh] md:mb-[150vh]"> 
+      <section className="h-full md:mt-0 mb-[250vh] md:mb-[150vh]"> 
         <div>
           <WorkExperience />
         </div>
       </section>
 
-      <section className="h-full md:mt-[1vh] mt-[60vh] md:mb-[30vh]">
+      <section className="h-full md:mt-[1vh] mt-[60vh] md:mb-[30vh] mb-[100vh]">
         <div>
           <Projects />
         </div>
