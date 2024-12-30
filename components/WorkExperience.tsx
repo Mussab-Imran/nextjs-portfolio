@@ -72,7 +72,7 @@ const WorkExperience = () => {
             </h2>
 
             <p>
-              Collaborated with my team to redesign and implement a client's case management system. 
+              Collaborated with my team to redesign and implement a client&apos;s case management system. 
               Conducted research to identify pain points in the existing system and worked closely with 
               the client to develop iterative prototypes using JustInMind. Once the prototype was finalized, 
               I developed the solution using Angular, TypeScript, PostgreSQL, and Docker. Worked in an Agile 

@@ -21,7 +21,7 @@ const AboutMe = () => {
                     {/* Text Section */}
                     <div className={incon.className}>
                         <p>
-                            Hi I'm Mussab, a full-stack developer based out of Guelph, ON. I am a University of Guelph 
+                            Hi I&apos;m Mussab, a full-stack developer based out of Guelph, ON. I am a University of Guelph 
                             grad with a major in Computer Science with a minor in Geomatics. 
                             I love creating products that solve real world problems and help improve lives.
                         </p>
